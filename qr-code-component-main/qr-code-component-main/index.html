@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: aliceblue;
+    }
+    .qr-card{
+      width: 14rem;
+      height: 20rem;
+      background-color: white;
+      margin-left:42%;
+      margin-top: 10%;
+      margin-right: 40%;
+      border-radius: 5%;
+    }
+    .qr-image
+    {
+      width: 12rem;
+      height: 12rem;
+      padding-left: 1rem;
+      padding-top: 1rem; 
+      
+    }
+    .qr-image img
+    {
+      width: 100%;
+      height: 100%;
+      border-radius: 5%;
+    }
+    .bold-text 
+    {
+      padding-top: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1rem;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+    .text
+  {
+      padding-top: rem;
+      padding-left: 1.5rem;
+      padding-right: 1rem;
+      text-align: center;
+      color: gray;
+      font-size: small;
+  }
+  @media only screen and (max-width: 600px) {
+    .qr-card{
+      margin: 5rem;
+    }
+  }
+  
+    
+    .attribution { font-size: 11px; text-align: center; margin: 2rem;  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="qr-card">
+    <div class="qr-image">
+      <img src="images/image-qr-code.png">
+    </div>
+    <div class="bold-text">
+      <b>Improve your front-end skills by building projects</b>
+    </div>
+    <div class="text">
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bozhidara Bozhanova</a>.
+  </div>
+</body>
+</html>
